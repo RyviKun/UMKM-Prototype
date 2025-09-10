@@ -1,2 +1,4 @@
 
 Ini adalah hasil pekerjaan saya selama dua hari terakhir. Menurut saya, masih banyak hal yang bisa diperbaiki dan disempurnakan. Misalnya, kombinasi warna pada tampilan saat ini masih bertabrakan dan kurang harmonis, beberapa rute seperti Menu dan About Us belum tersedia, serta carousel yang saat ini belum memiliki animasi sehingga tampilannya masih terasa kaku. Namun, mengingat saya masih dalam proses belajar banyak hal terkait Angular, ada banyak fitur dan potensi framework yang belum bisa saya manfaatkan secara maksimal. Saya berharap hasil ini bisa menjadi dasar yang baik untuk pengembangan lebih lanjut, dan saya sangat terbuka terhadap masukan dari mentor agar dapat meningkatkan kualitas pekerjaan saya ke depannya.
+
+untuk pengerjaan Case2 dan Case3 terdapat di folder Junior Fullstack
