@@ -1,0 +1,11 @@
+@if (visible) {
+  <article class="product-modal-backdrop" (click)="onClose()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <img src="{{product.imgUrl}}" alt="{{product?.name}}" />
+      <h1>{{product?.name}}</h1>
+      <p>price : xxxx</p>
+      <p>LoremIpsum</p>
+      <button (click)="onClose()">Close</button>
+    </div>
+  </article>
+}

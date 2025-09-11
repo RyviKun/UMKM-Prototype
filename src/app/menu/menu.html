@@ -1,0 +1,15 @@
+<section class="search-results">
+  @if(searchQuery) {
+    <p class="search-title">Results For: {{searchQuery}}</p>
+  }
+  
+  <div class="product-grid">
+    @for (item of products; track $index) {
+      <app-product-card
+        [name]="item.name"
+        [imgUrl]="item.imgUrl"
+        [description]="item.description">
+      </app-product-card>
+    }
+  </div>
+</section>

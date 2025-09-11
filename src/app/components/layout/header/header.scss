@@ -1,0 +1,50 @@
+header {
+    height: 100px;
+    display: flex;
+    padding-inline: 16px;
+    padding-block: 8px;
+    background-color: rgb(236, 135, 27);
+    border-bottom: 20px solid rgb(255, 185, 106);
+    color:   rgb(255, 255, 255); 
+    align-items:center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+        list-style: none;
+        li{
+            display: inline;
+            margin-left: 16px;
+            &:hover{
+            cursor :pointer;
+            color: gray;
+        }
+        }
+    }
+}
+
+.logo {
+  display: flex;
+  align-items: center; // vertically centers text with icon
+  gap: 0.5rem; // space between icon and text
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.25rem;
+  text-decoration: none;
+}
+
+.icon {
+  display: block;
+}
+
+.logo-text {
+  display: inline-block;
+}
+

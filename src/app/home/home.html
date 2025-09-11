@@ -1,0 +1,36 @@
+<section class="home">
+  <div class="container">
+    <app-carousel></app-carousel>
+
+    <div class="featuredMenus">
+      <h1>Featured Foods</h1>
+      <p></p>
+      <div class="productList">
+        @for (item of products; track $index) {
+          <app-product-card 
+            [name]="item.name" 
+            [imgUrl]="item.imgUrl" 
+            [description]="item.description">
+          </app-product-card>
+        }
+      </div>
+    </div>
+
+    <app-product-modal title="Product Detail"></app-product-modal>
+
+    <div class="customerFavorites">
+      <h1>Customer Favorites</h1>
+      <p>Most bought products by our customers</p>
+      <div class="productList">
+        @for (item of products; track $index) {
+          <app-product-card 
+            [name]="item.name" 
+            [imgUrl]="item.imgUrl" 
+            [description]="item.description">
+          </app-product-card>
+        }
+      </div>
+      
+    </div>
+  </div>
+</section>

@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Kebab",
+    "imgUrl": "kebab.jpg",
+    "description": "A cheesy Italian dish topped with tomato sauce and various toppings."
+  },
+  {
+    "name": "Burger",
+    "imgUrl": "burger.jpg",
+    "description": "A sandwich with a juicy beef patty, lettuce, tomato, and cheese."
+  },
+  {
+    "name": "Cheese Burger",
+    "imgUrl": "burger.jpg",
+    "description": "Italian noodles served with rich sauce and herbs."
+  },
+  {
+    "name": "Taro Drink",
+    "imgUrl": "beverages.jpg",
+    "description": "Japanese dish made with rice, seaweed, and fresh fish or vegetables."
+  },
+  {
+    "name": "Chococlate Drink",
+    "imgUrl": "beverages.jpg",
+    "description": "A mix of fresh vegetables, sometimes topped with dressing."
+  },
+  {
+    "name": "Kebab Chicken",
+    "imgUrl": "kebab.jpg",
+    "description": "Crispy and juicy chicken deep-fried to perfection."
+  }
+  
+]

@@ -1,0 +1,57 @@
+.home {
+  display: grid;
+  padding: 3rem 0;
+
+  width: 100%;
+  
+  .container {      
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;   
+    box-sizing: border-box;
+ 
+  }
+}
+
+.featuredMenus, .customerFavorites{
+  text-align: center;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  .productList {
+    display: flex;
+    height: fit-content;
+    gap: 20px;
+    scroll-behavior: smooth;
+    overflow-x: auto;       // horizontal scrolling
+    scrollbar-width: thin;  /* Firefox */
+
+    max-width: 100%;        // prevent stretching beyond container
+  }
+
+  li {
+    list-style: none;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: #e74c3c;
+    cursor: pointer;
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: #c0392b;
+    }
+  }
+}
+
+
